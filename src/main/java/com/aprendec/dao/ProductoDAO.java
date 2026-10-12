@@ -1,6 +1,6 @@
 package com.aprendec.dao;
 
-import com.aprendec.Conexion;
+import com.aprendec.conexion.Conexion;
 import com.aprendec.model.Producto;
 
 import java.sql.Connection;

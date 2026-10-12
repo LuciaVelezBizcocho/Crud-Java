@@ -1,4 +1,4 @@
-package com.aprendec;
+package com.aprendec.conexion;
 
 import java.sql.Connection;
 import java.sql.SQLException;
@@ -16,7 +16,7 @@ public class Conexion {
             dataSource.setDriverClassName("com.mysql.cj.jdbc.Driver");
             dataSource.setUsername("root");
             //Para el commit la contraseña la he cambiado por la palabra de forma temporal
-            dataSource.setPassword("Contraseña");
+            dataSource.setPassword("1234");
             dataSource.setUrl("jdbc:mysql://localhost:3306/crud?useTimezone=true&serverTimezone=UTC");
             dataSource.setInitialSize(20);
             dataSource.setMaxIdle(15);
